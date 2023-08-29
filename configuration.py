@@ -1,5 +1,5 @@
 # Путь к серверу
-URL_SERVICE = "https://0ebca73c-b358-4dc6-8152-cad0e8583e23.serverhub.praktikum-services.ru"
+URL_SERVICE = "https://42d3efcf-8dfe-492b-a091-fd8e6989172d.serverhub.praktikum-services.ru"
 
 
 # Путь на создание заказа

@@ -1,7 +1,7 @@
 import sender_stand_request
 import data
 
-
+# Смирнов Семён, 8-я когорта — Финальный проект. Инженер по тестированию плюс
 # Получение трека заказа
 def get_track():
     response = sender_stand_request.post_new_order(data.order_body)
