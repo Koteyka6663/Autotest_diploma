@@ -1,7 +1,7 @@
 1.Выведи список логинов курьеров с количеством их заказов в статусе «В доставке»
 
  SELECT c.login,
-        COUNT(o."courierId") AS order_count
+        COUNT(o."courierId") AS order_count_is_true
  FROM "Couriers" AS c
  LEFT JOIN "Orders" AS o ON c.id = o."courierId"
  WHERE o."inDelivery" = 't'
